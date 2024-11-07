@@ -1,0 +1,26 @@
+.album-page {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.album-page.active {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+}
+
+.nav-button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
